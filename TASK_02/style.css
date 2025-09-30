@@ -1,0 +1,137 @@
+@font-face {
+    font-family: heading;
+    src: url(./Xenogears_font.ttf);
+}
+
+@font-face {
+    font-family: paragraph;
+    src: url(./poppins.light.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Scout.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content{
+    height: 50%;
+    width: 100%;
+}
+
+#footer{
+    height: 50%;
+    width: 100%;
+}
+
+#footer{
+    height: 100%;
+    width: 100%;
+}
+
+#heading{
+    font-family: heading;
+    font-size: 80px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 40px;
+    color: black;
+    text-shadow: 0px 5px 10px #00E600;
+}
+
+#para{
+    font-family: paragraph;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: black;
+}
+
+#btn{
+    font-family: paragraph;
+    font-size: 15px;
+    font-weight: 1200;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 380px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00E600;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px black
+}
+
+#rntx{
+    height: 120px;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+#iqoo{
+    height: 200px;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+#monster{
+    height: 150px;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+#box-heading{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-content{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-heading{
+    font-family: heading;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 100px;
+    color: #E0C550;
+    text-shadow: 0px 5px 10px black;
+}
