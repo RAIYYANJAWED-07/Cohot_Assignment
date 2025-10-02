@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Poppins medium";
+    src: url(./poppins.medium.ttf);
+}
+@font-face {
+    font-family: "Scream Real";
+    src: url(./Scream\ Real.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins medium";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#main-left{
+    margin-right: 15%; 
+    margin-left: 50px;   
+    display: flex;
+    flex-direction: row;
+}
+
+#main-right{
+    margin-left: 32%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+#main-img{
+    padding-left: 6%;
+}
+
+#main-img>img{
+    height: 50px;
+    width: auto;
+}
+
+#heading{
+    height: 80%;
+    width: 100%;
+}
+
+#heading>h1{
+    position: absolute;
+    font-size: 230px;
+    font-family: "Scream Real";
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 80px;
+}
+
+#heading>p{
+    font-size: 20px;
+    padding-left:80px;
+    padding-top: 380px;
+    word-spacing: 40px;
+}
+
+#heading>img{
+    position: absolute;
+}
+
+#img1{
+    height: 320px;
+    width: auto;
+    right: 320px;
+    top: 300px;
+}
+
+#img2{
+    height: 220px;
+    width: auto;
+    right: 115px;
+    top: 255px;
+    z-index: 2;
+}
+
+#img3{
+    height: 280px;
+    width: auto;
+    right:160px;
+    top: 450px;
+}
+
+#heading-content{
+    position: absolute;
+    height: auto;
+    width: 250px;
+    padding-left: 80px;
+    margin-top: 40px;
+}
+
+#heading-content>h3{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+#heading-content>p{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 80px;
+    margin-top: auto;
+}
+
+#footer>h3{
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#footer>button{
+    margin-right: 80px;
+    height: 40px;  
+    width: 180px;
+    font-size: 20px;
+    border: 0cap;
+    background-color: white;
+}
+
