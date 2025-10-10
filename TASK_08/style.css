@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-rows: 1.5fr 4fr 4fr;
+    gap: 20px;
+    padding: 10px 40px;
+    grid-template-areas:
+        "header header header"
+        "section top-div top-div"
+        "section bottom-left-div bottom-right-div";
+}
+
+
+header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+header h1 i{
+    font-weight: 900;
+    background: url(https://wallpapers.com/images/high/pink-blue-gradient-blur-l3q8fm5xqg3pf30l.webp);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#header-link{
+    display: flex;
+    gap: 40px;
+}
+
+#header-link a{
+    text-decoration: none;
+    color: #000;
+}
+
+#header-btn{
+    display: flex;
+    gap: 10px;
+}
+
+#header-btn button{
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 5px;
+    border-radius: 24px;
+    border: none;
+    font-size: 14px;
+}
+
+.btn-login{
+    background-color: transparent;
+    color: black;
+}
+
+.btn-talk{
+    background-color: #2C313F;
+    color: #fff;
+}
+
+.btn-talk i{
+    color: #2C313F;
+    font-size: 1.2rem;
+    padding: 8px 8px;
+    background-color: #BDC3FF;
+    border-radius: 20px;
+}
+
+section{
+    grid-area: section;
+    padding: 35px 40px;
+}
+
+section h1{
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 300;
+    display: inline-block;
+}
+
+section button{
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+}
+
+.btn-contact{
+    background-color: black;
+    color: white;
+}
+
+.btn-contact i{
+   margin-left: 5px;
+   font-size: 1.2rem;
+}
+
+section a{
+    margin-left: 20px;
+    color: black;
+}
+
+section p{
+    margin-top: 40px;
+    font-size: 0.8rem;
+}
+
+#section-div{
+    height: 50px;
+    width: 150px;
+    border-radius: 24px;
+    margin-right: 40px;
+    background: url(https://wallpapers.com/images/high/pink-blue-gradient-blur-l3q8fm5xqg3pf30l.webp);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#middle-btn{
+    padding: 20px 46px;
+    margin-left: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 26px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#top-div{   
+    grid-area: top-div;
+    background-color: blue;
+    border-radius: 46px;
+    background: url(https://images.unsplash.com/photo-1728920315854-0f965ba2379d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-left-div{
+    grid-area: bottom-left-div;
+    background-color: green;
+    border-radius: 46px;
+    background: url(https://images.unsplash.com/photo-1735920865511-8040c8d2e908?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-right-div{
+    grid-area: bottom-right-div;
+    background-color: pink;
+    border-radius: 46px;
+    background: url(https://images.unsplash.com/photo-1650453655813-19b9da8ff23d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
