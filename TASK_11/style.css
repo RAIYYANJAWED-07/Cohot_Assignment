@@ -1,0 +1,490 @@
+@font-face {
+  font-family: "heading";
+  src: url(./Chillax-Regular.woff);
+}
+@font-face {
+  font-family: "para";
+  src: url(./Satoshi-Light.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+nav .nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+nav .nav-left .nav-link {
+  background-color: #1E1E1E;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
+}
+nav .nav-left a {
+  padding: 1.2rem 1.7rem;
+  border-radius: 0.7rem;
+}
+nav .nav-left #get-in-touch {
+  background-color: #c9b656;
+  color: black;
+}
+
+.section-1 {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.section-1 #section-1-img {
+  width: 50%;
+}
+.section-1 #section-1-img img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+.section-1 #section-1-card {
+  background-color: #1E1E1E;
+  color: white;
+  width: 50%;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.5rem;
+}
+.section-1 #section-1-card .card-head h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.section-1 #section-1-card .card-bottom h1 {
+  font-family: heading;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: 200;
+}
+.section-1 #section-1-card .card-bottom p {
+  font-family: para;
+  font-size: 1.5rem;
+  opacity: 0.7;
+  line-height: 2.5rem;
+}
+.section-1 #section-1-card .card-bottom button {
+  background-color: #c9b656;
+  color: black;
+  padding: 1.2rem 1.7rem;
+  border-radius: 0.7rem;
+  margin-top: 2.5rem;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+}
+.section-2 .section-2-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.section-2 .section-2-stats h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  opacity: 0.7;
+}
+.section-2 .section-2-stats h1 {
+  font-family: heading;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0rem 2rem;
+  padding-top: 2rem;
+  gap: 2rem;
+}
+.section-3 #section-3-img {
+  width: 50%;
+}
+.section-3 #section-3-img img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+.section-3 #section-3-card {
+  width: 50%;
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.5rem;
+}
+.section-3 #section-3-card .card-head h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.section-3 #section-3-card .card-bottom h1 {
+  font-family: heading;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 200;
+}
+.section-3 #section-3-card .card-bottom #card-bottom-para {
+  display: flex;
+  gap: 2rem;
+}
+.section-3 #section-3-card .card-bottom #card-bottom-para p {
+  font-family: para;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  line-height: 2.5rem;
+}
+
+.section-4 {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.section-4 #section-4-img {
+  width: 50%;
+}
+.section-4 #section-4-img img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+.section-4 #section-4-card {
+  width: 50%;
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.5rem;
+}
+.section-4 #section-4-card .card-head h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.section-4 #section-4-card .card-bottom h1 {
+  font-family: heading;
+  text-transform: uppercase;
+  font-size: 3.8rem;
+  font-weight: 200;
+}
+.section-4 #section-4-card .card-bottom #card-bottom-para {
+  display: flex;
+  gap: 2rem;
+}
+.section-4 #section-4-card .card-bottom #card-bottom-para p {
+  font-family: para;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  line-height: 2.5rem;
+}
+
+.section-5 {
+  display: flex;
+  padding: 2rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-5 #section-5-head h1 {
+  font-family: heading;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 200;
+}
+.section-5 #section-5-button button {
+  background-color: #c9b656;
+  color: black;
+  padding: 1.2rem 1.7rem;
+  border-radius: 0.7rem;
+  text-transform: uppercase;
+}
+
+.section-6 {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: center;
+}
+.section-6 .section-6-card {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 1/1;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.7rem;
+}
+.section-6 .section-6-card #card-head {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+.section-6 .section-6-card #card-head #card-head-icon {
+  padding: 1.2rem;
+  border-radius: 50%;
+  border: 0.5px solid rgba(245, 245, 245, 0.448);
+  background-color: rgba(64, 64, 64, 0.3333333333);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-6 .section-6-card #card-bottom {
+  background-color: rgba(64, 64, 64, 0.3333333333);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: 0.5px solid rgba(245, 245, 245, 0.448);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.7rem;
+  align-items: center;
+}
+.section-6 .section-6-card #card-bottom h1 {
+  font-family: heading;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.section-6 .section-6-card #card-bottom h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.section-6 #card-img-1 {
+  background: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbd7d003dfb6a1bdecb_team-01-p-1080.webp);
+  background-size: cover;
+}
+.section-6 #card-img-2 {
+  background: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbd2e12fa747e999689_team-02-p-1080.webp);
+  background-size: cover;
+}
+.section-6 #card-img-3 {
+  background: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbdc1f945f817bf4fd7_team-03-p-1080.webp);
+  background-size: cover;
+}
+
+.section-7 {
+  display: flex;
+  width: 100%;
+  padding: 0 2rem;
+  gap: 2rem;
+  align-items: center;
+}
+.section-7 #section-7-img {
+  width: 50%;
+}
+.section-7 #section-7-img img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+.section-7 #section-7-card {
+  background-color: #1E1E1E;
+  color: white;
+  width: 50%;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  padding: 3.5rem;
+}
+.section-7 #section-7-card .card-head h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+.section-7 #section-7-card .card-head h1 {
+  font-family: heading;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 200;
+}
+.section-7 #section-7-card .card-bottom button {
+  background-color: #c9b656;
+  color: black;
+  padding: 1.2rem 1.7rem;
+  border-radius: 0.7rem;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+}
+
+.section-8 {
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.section-8 .section-8-card {
+  background-color: #c9b656;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 5rem;
+  border-radius: 0.7rem;
+  color: black;
+}
+.section-8 .section-8-card #section-8-left {
+  width: 70%;
+}
+.section-8 .section-8-card #section-8-left h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.section-8 .section-8-card #section-8-left h1 {
+  font-family: heading;
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 200;
+}
+.section-8 .section-8-card #section-8-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.section-8 .section-8-card #section-8-right button {
+  background-color: #1E1E1E;
+  color: white;
+  padding: 1.2rem 1.7rem;
+  border-radius: 0.7rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 950px) {
+  nav .nav-left #hamburger {
+    display: none;
+  }
+  .section-1 {
+    flex-direction: column;
+  }
+  .section-1 #section-1-img {
+    width: 100%;
+  }
+  .section-1 #section-1-card {
+    width: 100%;
+    gap: 5rem;
+    padding: 2.8rem;
+  }
+  .section-1 #section-1-card .card-bottom h1 {
+    font-size: 2.8rem;
+  }
+  .section-1 #section-1-card .card-bottom p {
+    font-size: 1.5rem;
+  }
+  .section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  .section-2 .section-2-stats h4 {
+    font-size: 1rem;
+  }
+  .section-2 .section-2-stats h1 {
+    font-size: 3rem;
+  }
+  .section-3 {
+    flex-direction: column;
+  }
+  .section-3 #section-3-img {
+    width: 100%;
+  }
+  .section-3 #section-3-card {
+    width: 100%;
+    gap: 5rem;
+    padding: 2.8rem;
+  }
+  .section-3 #section-3-card .card-bottom h1 {
+    font-size: 2.8rem;
+  }
+  .section-3 #section-3-card .card-bottom #card-bottom-para {
+    gap: 0;
+    flex-direction: column;
+  }
+  .section-4 {
+    flex-direction: column;
+  }
+  .section-4 #section-4-img {
+    width: 100%;
+  }
+  .section-4 #section-4-card {
+    width: 100%;
+    gap: 5rem;
+    padding: 2.8rem;
+  }
+  .section-4 #section-4-card .card-bottom h1 {
+    font-size: 2.8rem;
+  }
+  .section-4 #section-4-card .card-bottom #card-bottom-para {
+    gap: 0;
+    flex-direction: column;
+  }
+  .section-5 #section-5-button button {
+    display: none;
+  }
+  .section-6 {
+    flex-direction: column;
+  }
+  .section-7 {
+    flex-direction: column;
+  }
+  .section-7 #section-7-img {
+    width: 100%;
+  }
+  .section-7 #section-7-card {
+    width: 100%;
+  }
+  .section-8 .section-8-card {
+    padding: 3rem 2rem;
+    flex-direction: column;
+  }
+  .section-8 .section-8-card #section-8-left {
+    width: 100%;
+  }
+  .section-8 .section-8-card #section-8-left h1 {
+    font-size: 2.8rem;
+  }
+  .section-8 .section-8-card #section-8-right {
+    width: 100%;
+  }
+  .section-8 .section-8-card #section-8-right button {
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    padding: 1.2rem 12rem;
+  }
+}/*# sourceMappingURL=style.css.map */
